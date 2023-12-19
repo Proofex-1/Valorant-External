@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <SignMode>Off</SignMode>
+    <DbgengKernelMachineName>New Computer</DbgengKernelMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TestCertificate>CN="Valve" | 5C18FD56920F4AD7A7F1A97FE5897BA0500FB646</TestCertificate>
+    <SignMode>ProductionSign</SignMode>
+  </PropertyGroup>
+</Project>

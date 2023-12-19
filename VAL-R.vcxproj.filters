@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="emgui\imgui.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_demo.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_draw.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_impl_dx9.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_impl_win32.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_widgets.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{5baad695-9a2f-444d-9077-6e6cf10f6e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{bab030b4-0a79-4252-93c9-38c53249527c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blabla">
+      <UniqueIdentifier>{f6309c51-1117-4e1d-bd38-2372b8486cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emgui">
+      <UniqueIdentifier>{68deaced-46f8-468a-b366-e415c615823a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protect">
+      <UniqueIdentifier>{e085baf1-69f9-484d-8ff2-73e0656cb66e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\cheats.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\theme.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\xor.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\check.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\Func.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\shelldriver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\fonthelper.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\icons.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\Images.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\include.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\json.hpp">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\skStr.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\utils.hpp">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="blabla\download.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imconfig.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui_impl_dx9.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui_impl_win32.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui_internal.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imstb_rectpack.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imstb_textedit.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imstb_truetype.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="nt.hpp" />
+    <ClInclude Include="protect.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping.hpp" />
+    <ClInclude Include="spoof.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="blabla\libcurl.lib" />
+    <Library Include="blabla\library_x64.lib" />
+    <Library Include="kdmapper.lib" />
+  </ItemGroup>
+</Project>
